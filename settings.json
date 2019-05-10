@@ -1,0 +1,37 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "git.autofetch": true,
+    "debug.node.autoAttach": "off",
+    "window.zoomLevel": 0,
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        }
+    ],
+    "editor.renderControlCharacters": false,
+}
